@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,4 +29,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-main {
+  padding: 20px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: #d4d4d4;
+  margin: 5px 0;
 }
