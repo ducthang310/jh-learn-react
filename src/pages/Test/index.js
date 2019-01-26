@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
+import WithoutContext from "../../components/WithoutContext";
+import Context from "../../components/Context";
 
 class Test extends Component {
     render() {
         return (
             <main className="App-main">
-                Todo app will be here
+                <WithoutContext/>
+                <div className="divider"/>
+                <Context/>
             </main>
         );
     }
